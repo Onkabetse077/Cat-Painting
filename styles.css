@@ -8,10 +8,14 @@
     background-color:#c9d2fc;
   }
 
-  /*Step 7,8,9,10,11,14,15*/
+  /*Step 7,8,9,10,11,14,15,16*/
   .cat-head{
-    position:sticky;
-    top:0;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
     width:205px;
     height:180px;
     border:1px solid #000;
@@ -19,7 +23,7 @@
     background:linear-gradient(#5e5e5e 85%, #45454f 100%);
   }
 
-  /*Step 13*/
+  /*Step 13,18
   .box{
     width:200px;
     height:600px;
@@ -27,4 +31,19 @@
     position:absolute;
     top:800px;
     left:650px;
+  }*/
+
+  /*Step 23,24,25*/
+  .cat-left-ear{
+    position:absolute;
+    top:-26px;
+    left:-31px;
+
+    border-top-left-radius:90px;
+    border-top-right-radius:10px;
+
+    border-left:35px solid transparent ;
+    border-right:35px solid transparent;
+
+    border-bottom: 70px solid #5e5e5e;
   }
