@@ -138,12 +138,23 @@
  background-color: #fff;
 }
 
-/*Step 54,55*/
+/*Step 54,55,56*/
 .cat-nose{
   position: absolute;
   top: 108px;
   left: 85px;
+  border-radius: 50%;
+  transform: rotate(180deg);
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid #442c2c;
+}
+
+/*Step 59,60*/
+.cat-mouth div{
+  border: 2px solid #000;
+  width: 30px;
+  height: 50px;
+  border-radius:190%/190px 150px 0 0;
+  border-color:black transparent transparent transparent;
 }
