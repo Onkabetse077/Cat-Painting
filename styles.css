@@ -11,16 +11,16 @@
   /*Step 7,8,9,10,11,14,15,16*/
   .cat-head{
     position: absolute;
+    right: 0;
+    left: 0;
     top: 0;
-    bottom:0;
-    right:0;
-    left:0;
-    margin:auto;
-    width:205px;
-    height:180px;
-    border:1px solid #000;
-    border-radius:46%;
-    background:linear-gradient(#5e5e5e 85%, #45454f 100%);
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    width: 205px;
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 46%;
   }
 
   /*Step 13,18
@@ -33,17 +33,58 @@
     left:650px;
   }*/
 
-  /*Step 23,24,25*/
+  /*Step 23,24,25,26,31,32*/
   .cat-left-ear{
-    position:absolute;
-    top:-26px;
-    left:-31px;
-
-    border-top-left-radius:90px;
-    border-top-right-radius:10px;
-
-    border-left:35px solid transparent ;
-    border-right:35px solid transparent;
-
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    transform: rotate(-45deg);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
     border-bottom: 70px solid #5e5e5e;
+    z-index:1;
   }
+
+  /*Step 27,28,29,30,33*/
+  .cat-right-ear{
+    position:absolute;
+      top:-26px;
+      left:163px;
+      transform: rotate(45deg);
+      border-top-left-radius:90px;
+      border-top-right-radius:10px;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 70px solid #5e5e5e;
+      z-index:1;
+  }
+
+  /*Step 34,35,36*/
+  .cat-left-inner-ear{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:40%;
+    border-bottom-left-radius:40%;
+  }
+
+  /*Step 37,39*/
+  .cat-right-inner-ear{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-bottom: 40px solid #3b3b4f;
+ }
